@@ -31,7 +31,7 @@ h1
 }
 h1.nothing {
   font-size: 3em;
-  line-height: 100%;
+  line-height: 75%;
 }
 /* h1:hover
 {

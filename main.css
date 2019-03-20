@@ -16,6 +16,9 @@ h1
   left: 50%;
   transform: translateX(-50%) translateY(-50%);
 }
+h1.nothing {
+  font-size: 3em;
+}
 /* h1:hover
 {
   color: #000000;
@@ -24,6 +27,11 @@ a
 {
   color: white;
   text-decoration: none;
+  -o-transition:.5s;
+  -ms-transition:.5s;
+  -moz-transition:.5s;
+  -webkit-transition:.5s;
+  transition: color .5s;
 }
 a:hover
 {
